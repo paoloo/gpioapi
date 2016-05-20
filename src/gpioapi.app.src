@@ -1,0 +1,12 @@
+{application, gpioapi,
+ [
+  {description, "Erlang API to interface raspberry pi GPIO into web"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gpioapi_app, []}},
+  {env, []}
+ ]}.
